@@ -144,7 +144,7 @@ int main()
                             break;
                         case 2:
                             system("cls");
-                            //ej322();
+                            ej322();
                             break;
                         }
                         break;
@@ -504,13 +504,43 @@ void ej321()
     system("cls");
 }
 
-/*void ej322()
+void ej322()
 {
     printf("2) Leer tres números diferentes e imprimir el numero mayor de los tres.\n\n");
+    int primero=0 , segundo=0 , tercero=0;
+    printf("ingrese el primer numero");
+    scanf("%i",&primero);
+    printf("ingrese el segundo numero");
+    scanf("%i",&segundo);
+    printf("ingrese el tercero numero");
+    scanf("%i",&tercero);
+    if(primero>segundo)
+    {
+        if(primero>tercero)
+        {
+            printf("El mayor %i\n",primero);
+        }
+        else
+        {
+            printf("El mayor %i\n",tercero);
+        }
+    }
+    else
+    {
+        if(segundo>tercero)
+        {
+            printf("El mayor %i\n",segundo);
+        }
+        else
+        {
+            printf("El mayor %i\n",tercero);
+        }
+    }
     system("pause");
     system("cls");
 }
 
+/*
 void ej4()
 {
     printf("Realizar un algoritmo que permita realizar 3 veces lo siguiente: ingresar 2 números calcular su suma e informar el resultado.\nEl algoritmo deberá:\n1.	Leer el número que ingresa el usuario\n3. 2. Efectuar la suma y almacenarla\n3. 3.	Mostrar el resultado almacenado\nPara efectuar esto una sola vez bastaría con el siguiente algoritmo:\nPero el algoritmo anterior sólo efectúa una vez la suma de dos números, para que pueda hacerlo más veces deberíamos repetir las sentencias de entrada, proceso y salida de datos tantas veces como se solicite.\nPara realizar esto utilizamos una estructura repetitiva que ejecute 3 iteraciones\n\n");
