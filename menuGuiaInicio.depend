@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1553563647 source:c:\users\fa-qa\documents\facultad 2019\unidad1pilas\menuguiainicio\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1553692194 source:c:\users\usuario\desktop\menuguiainicio\main.c
+	<stdio.h>
+	<stdlib.h>
+
